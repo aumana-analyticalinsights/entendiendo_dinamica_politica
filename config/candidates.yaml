@@ -1,0 +1,46 @@
+# Candidatos y cuentas semilla para recoleccion de datos
+# Los hashtags se derivan dinamicamente de los tweets recolectados
+
+bloques:
+  derecha:
+    candidatos:
+      - nombre: "Paloma Valencia"
+        partido: "CD"
+        handle: "@PalomaValenciaL"
+        rol: "Candidata presidencial"
+      - nombre: "Abelardo De La Espriella"
+        partido: "MSN"
+        handle: "@ABDELAESPRIELLA"
+        rol: "Candidato presidencial"
+    cuentas_asociadas:
+      - handle: "@JDOviedoAr"
+        rol: "Candidato vicepresidencia Paloma Valencia"
+      - handle: "@CeDemocratico"
+        rol: "Partido Centro Democratico"
+      - handle: "@AlvaroUribeVel"
+        rol: "Expresidente"
+
+  izquierda:
+    candidatos:
+      - nombre: "Ivan Cepeda"
+        partido: "PH"
+        handle: "@IvanCepedaCast"
+        rol: "Candidato presidencial"
+    cuentas_asociadas:
+      - handle: "@petrogustavo"
+        rol: "Presidente"
+      - handle: "@PizarroMariaJo"
+        rol: "Lider de izquierda"
+      - handle: "@GustavoBolivar"
+        rol: "Lider de izquierda"
+      - handle: "@PactoHistorico"
+        rol: "Partido politico izquierda"
+
+# Otros candidatos relevantes de las encuestas (sin bloque asignado aun)
+otros_candidatos:
+  - nombre: "Sergio Fajardo"
+    partido: "D&C"
+  - nombre: "Juan Manuel Galan"
+    partido: "NL"
+  - nombre: "German Vargas Lleras"
+    partido: "CR"
