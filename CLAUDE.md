@@ -23,6 +23,9 @@ Se va a implementar la metodología que desarrolla el modelo de predicción de e
 ### conexion X API
 
 clave de api en archivo .env
+Minimiza las consultas a las APIs. 
+Antes de usar una API verificar si los datos ya están en el disco duro. 
+Si los datos no se encuentran hacer la descarga y guardar adecuadamente.
 
 ## Librerías
 

@@ -1,46 +1,50 @@
-# Candidatos y cuentas semilla para recoleccion de datos
-# Los hashtags se derivan dinamicamente de los tweets recolectados
-
 bloques:
   derecha:
     candidatos:
-      - nombre: "Paloma Valencia"
-        partido: "CD"
-        handle: "@PalomaValenciaL"
-        rol: "Candidata presidencial"
-      - nombre: "Abelardo De La Espriella"
-        partido: "MSN"
-        handle: "@ABDELAESPRIELLA"
-        rol: "Candidato presidencial"
+    - handle: '@PalomaValenciaL'
+      id: '149281495'
+      nombre: Paloma Valencia
+      partido: CD
+      rol: Candidata presidencial
+    - handle: '@ABDELAESPRIELLA'
+      id: '1657059045956517897'
+      nombre: Abelardo De La Espriella
+      partido: MSN
+      rol: Candidato presidencial
     cuentas_asociadas:
-      - handle: "@JDOviedoAr"
-        rol: "Candidato vicepresidencia Paloma Valencia"
-      - handle: "@CeDemocratico"
-        rol: "Partido Centro Democratico"
-      - handle: "@AlvaroUribeVel"
-        rol: "Expresidente"
-
+    - handle: '@JDOviedoAr'
+      id: '219434063'
+      rol: Candidato vicepresidencia Paloma Valencia
+    - handle: '@CeDemocratico'
+      id: '1115440213'
+      rol: Partido Centro Democratico
+    - handle: '@AlvaroUribeVel'
+      id: '61097151'
+      rol: Expresidente
   izquierda:
     candidatos:
-      - nombre: "Ivan Cepeda"
-        partido: "PH"
-        handle: "@IvanCepedaCast"
-        rol: "Candidato presidencial"
+    - handle: '@IvanCepedaCast'
+      id: '98781946'
+      nombre: Ivan Cepeda
+      partido: PH
+      rol: Candidato presidencial
     cuentas_asociadas:
-      - handle: "@petrogustavo"
-        rol: "Presidente"
-      - handle: "@PizarroMariaJo"
-        rol: "Lider de izquierda"
-      - handle: "@GustavoBolivar"
-        rol: "Lider de izquierda"
-      - handle: "@PactoHistorico"
-        rol: "Partido politico izquierda"
-
-# Otros candidatos relevantes de las encuestas (sin bloque asignado aun)
+    - handle: '@petrogustavo'
+      id: '49849732'
+      rol: Presidente
+    - handle: '@PizarroMariaJo'
+      id: '1362851972'
+      rol: Lider de izquierda
+    - handle: '@GustavoBolivar'
+      id: '50981729'
+      rol: Lider de izquierda
+    - handle: '@PactoHistorico'
+      id: '998190549353017345'
+      rol: Partido politico izquierda
 otros_candidatos:
-  - nombre: "Sergio Fajardo"
-    partido: "D&C"
-  - nombre: "Juan Manuel Galan"
-    partido: "NL"
-  - nombre: "German Vargas Lleras"
-    partido: "CR"
+- nombre: Sergio Fajardo
+  partido: D&C
+- nombre: Juan Manuel Galan
+  partido: NL
+- nombre: German Vargas Lleras
+  partido: CR

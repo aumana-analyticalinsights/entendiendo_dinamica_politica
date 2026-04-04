@@ -1,0 +1,147 @@
+Recurso
+Costo Unitario
+Costo Estimado (por mes)
+Publicaciones: Leer
+Se cobra por recurso obtenido.
+$0.005
+por recurso
+Uso10k recursos
+0k$50.0050k
+Usuario: Leer
+Se cobra por recurso obtenido.
+$0.010
+por recurso
+Uso5k recursos
+0k$50.0050k
+Evento DM: Leer
+Se cobra por recurso obtenido.
+$0.010
+por recurso
+Uso2k recursos
+0k$20.0050k
+Contenido: Crear
+Crear publicaciones o medios. Se cobra por solicitud.
+$0.010
+por solicitud
+Uso5k solicitudes
+0k$50.0050k
+Interacción DM: Crear
+Crear interacciones de DM. Se cobra por solicitud.
+$0.015
+por solicitud
+Uso1k solicitudes
+0k$15.0050k
+Interacción de Usuario: Crear
+Crear interacciones de usuario. Se cobra por solicitud.
+$0.015
+por solicitud
+Uso2k solicitudes
+0k$30.0050k
+Lista: Leer
+Se cobra por recurso obtenido.
+$0.005
+por recurso
+Uso0k recursos
+0k$0.0050k
+Espacio: Leer
+Se cobra por recurso obtenido.
+$0.005
+por recurso
+Uso0k recursos
+0k$0.0050k
+Comunidad: Leer
+Se cobra por recurso obtenido.
+$0.005
+por recurso
+Uso0k recursos
+0k$0.0050k
+Nota: Leer
+Se cobra por recurso obtenido.
+$0.005
+por recurso
+Uso0k recursos
+0k$0.0050k
+Siguiendo/Seguidores: Leer
+Se cobra por recurso obtenido tanto para siguiendo como seguidores.
+$0.010
+por recurso
+Uso0k recursos
+0k$0.0050k
+Medios: Leer
+Se cobra por recurso obtenido.
+$0.005
+por recurso
+Uso0k recursos
+0k$0.0050k
+Análisis: Leer
+Se cobra por recurso obtenido.
+$0.005
+por recurso
+Uso0k recursos
+0k$0.0050k
+Tendencia: Leer
+Obtener tendencias. Se cobra por recurso obtenido.
+$0.010
+por recurso
+Uso0k recursos
+0k$0.0050k
+Interacción: Eliminar
+Eliminar interacciones. Se cobra por solicitud.
+$0.010
+por solicitud
+Uso0k solicitudes
+0k$0.0050k
+Contenido: Gestionar
+Gestionar contenido (eliminar u ocultar publicaciones). Se cobra por solicitud.
+$0.005
+por solicitud
+Uso0k solicitudes
+0k$0.0050k
+Lista: Crear
+Crear listas. Se cobra por solicitud.
+$0.010
+por solicitud
+Uso0k solicitudes
+0k$0.0050k
+Lista: Gestionar
+Gestionar listas (eliminar o actualizar). Se cobra por solicitud.
+$0.005
+por solicitud
+Uso0k solicitudes
+0k$0.0050k
+Marcador
+Crear marcadores. Se cobra por solicitud.
+$0.005
+por solicitud
+Uso0k solicitudes
+0k$0.0050k
+Metadatos de Medios
+Crear/eliminar metadatos de medios. Se cobra por solicitud.
+$0.005
+por solicitud
+Uso0k solicitudes
+0k$0.0050k
+Privacidad: Actualizar
+Actualizar configuración de privacidad. Se cobra por solicitud.
+$0.010
+por solicitud
+Uso0k solicitudes
+0k$0.0050k
+Silenciar: Eliminar
+Eliminar silenciados. Se cobra por solicitud.
+$0.005
+por solicitud
+Uso0k solicitudes
+0k$0.0050k
+Conteos: Recientes
+Obtener conteos recientes. Se cobra por solicitud.
+$0.005
+por solicitud
+Uso0k solicitudes
+0k$0.0050k
+Conteos: Todos
+Obtener todos los conteos. Se cobra por solicitud.
+$0.010
+por solicitud
+Uso0k solicitudes
+0k$0.0050k
