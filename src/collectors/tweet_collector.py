@@ -248,13 +248,20 @@ def collect_user_timeline(
 def search_tweets(
     query: str,
     *,
-    start_time: str = SINCE_DATE,
+    start_time: str | None = SINCE_DATE,
     max_pages: int = DEFAULT_MAX_PAGES,
     use_full_archive: bool = False,
 ) -> list[dict]:
-    """Search tweets by query. Uses JSONL cache if available."""
-    safe_name = query.replace(" ", "_").replace("@", "")[:50]
-    jsonl_path = DATA_RAW / f"_search_{safe_name}.jsonl"
+    """Search tweets by query. Uses JSONL cache if available.
+
+    For search_recent (Basic tier), start_time is omitted by default since the
+    API only allows the last 7 days and defaults to that range automatically.
+    Pass start_time=None explicitly or rely on the automatic behaviour.
+    """
+    import hashlib
+    safe_prefix = query.replace(" ", "_").replace("@", "")[:40]
+    query_hash = hashlib.md5(query.encode()).hexdigest()[:8]
+    jsonl_path = DATA_RAW / f"_search_{safe_prefix}_{query_hash}.jsonl"
 
     if jsonl_path.exists():
         records = _load_jsonl(jsonl_path)
@@ -264,15 +271,20 @@ def search_tweets(
     jsonl_path.parent.mkdir(parents=True, exist_ok=True)
     client = get_client()
     search_fn = client.posts.search_all if use_full_archive else client.posts.search_recent
-    pages = search_fn(
+
+    kwargs: dict = dict(
         query=query,
-        start_time=start_time,
         max_results=100,
         tweet_fields=TWEET_FIELDS,
         expansions=EXPANSIONS,
         user_fields=USER_FIELDS,
         sort_order="recency",
     )
+    # search_recent (Basic) only supports last 7 days; skip start_time unless full archive
+    if use_full_archive and start_time:
+        kwargs["start_time"] = start_time
+
+    pages = search_fn(**kwargs)
     return _collect_pages(pages, max_pages=max_pages, jsonl_path=jsonl_path)
 
 
